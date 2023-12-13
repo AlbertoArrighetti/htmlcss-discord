@@ -14,16 +14,10 @@ body{
     margin-right: auto;
 }
 
-.hero, section{
-    padding: 40px 20px;
-}
-
 .flex{
     display: flex;
 }
-img{
-    display: inline-block;
-}
+
 
 /* navbar */
 header{
@@ -50,11 +44,12 @@ nav .nav-links ul{
     display: flex;
     justify-content: center;
     
-    gap: 12px;
+    gap: 36px;
 
     list-style-type: none;
 }
 a{
+    font-size: 12px;
     text-decoration: none;
     color: white;
 }
@@ -111,28 +106,53 @@ nav .login{
 
 
 
-
-
-
-
+main section{
+    padding: 150px 0px;
+}
 /* sezioni img e descrizione */
 .img-column{
-    background-color: #1e90ff;
-    height: 500px;
-    /* test */
-
     flex-grow: 1;
 }
-.text-column{
-    background-color: #ffc0cb;
-    height: 500px;
-    /* test */
+.img-column #discord-img-1{
+    width: 500px;
+    margin-left: 140px;
+}
+.img-column #discord-img-2{
+    width: 500px;
+    margin-right: 140px;
+}
+.img-column #discord-img-3{
+    width: 500px;
+    margin-left: 140px;
+}
 
-    width: 480px;
+.text-column{
+    padding: 30px 270px 0px 0px;
+    width: 480px;   
+}
+.text-column-right{
+    padding: 30px 0px 0px 130px;
+    width: 480px; 
+}
+.text-column h2, .text-column-right h2{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 26px;
+
+}
+.text-column p, .text-column-right p{
+    font-size: 12px;
+
 }
 .bg-gray {
     background-color: #d3d3d3;
 }
+
+
+
+
+
+
 
 
 /* img e download */
