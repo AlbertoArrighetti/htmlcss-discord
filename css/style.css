@@ -180,9 +180,6 @@ main .row{
     margin-bottom: 120px;
 }
 
-
-
-
 /* footer */
 
 .bg-black{
@@ -192,23 +189,67 @@ footer{
     padding-top: 12px;
 }
 
+
+
+
+
+
+
 /* info */
 
 #footer-top{
     margin-bottom: 40px;
 }
 footer .footer-link{
-    background-color: #f08080;
-    height: 580px;
     width: 360px;
-    /* test */
 }
-footer .footer-info{
-    background-color: #20b2aa;
-    /* test */
-    
+footer .footer-link h3{
+    padding-right: 160px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+footer .footer-link #flag{
+    width: 20px;
+}
+footer .footer-link .language{
+    font-size: 10px;
+    color: white;
+}
+footer .footer-link .footer-logo{
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+    color: red;
+}
+
+
+
+
+
+
+.footer-info{
     flex-grow: 1;   
 }
+.footer-info ul{
+    list-style-type: none;
+    margin-top: 70px;
+}
+.footer-info ul li{
+    padding-top: 10px;
+
+    font-size: 12px;
+    color: white;
+}
+.footer-info ul .category, .category{
+    color: #7188d8;
+    font-weight: bold;
+}
+
+
+
+
+
 
 /* logo e button */
 
