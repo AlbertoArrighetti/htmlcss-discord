@@ -4,11 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+}
 
 .container{
-    border: 1px dashed black;
-    /* test */
-
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -21,26 +21,24 @@
 .flex{
     display: flex;
 }
-
+img{
+    display: inline-block;
+}
 
 /* navbar */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center center;
+}
 nav{
-    background-color: #add8e6;
-    /* test */
-
     padding: 18px;
 }
 nav .container > *{
-    border: 1px dashed black;
-    /* test */
-
     padding: 14px 10px;
 }
 nav .container{
-    background-color: #daa520;
-    /* test */
-
-    display: flex;
+     display: flex;
 }
 nav .logo{
     width: 240px;
@@ -51,31 +49,70 @@ nav .nav-links{
 nav .nav-links ul{
     display: flex;
     justify-content: center;
-
+    
     gap: 12px;
 
     list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 nav .login{
     width: 240px;
     text-align: right;
 }
+.button{
+    border-style: none;
+    border-radius: 20px;
 
+    font-size: 14px;
+
+    margin-right: 30px;
+}
+#login-button{
+    font-weight: bold;
+
+    padding: 10px;
+}
 
 /* download */
 .s-container{
-    background-color: #ee82ee;
-    height: 400px;
-    /* test */
+    text-align: center;
+    flex-direction: column;
 
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+
+    color: white;
 }
-.hero {
-    background-color: #00008b;
-    /* test */
+.s-container h1{
+    margin-bottom: 40px;
+    font-size: 35px;
 }
+.s-container p{
+    margin-bottom: 40px;
+    padding: 0px 150px;
+}
+.button-container{
+    margin-bottom: 130px ;
+}
+.s-container div #mac-download{
+    padding: 14px 22px;
+}
+.s-container div #discord-browser{
+    padding: 14px 22px;
+
+    background-color: #23272a;
+    color: white;
+}
+
+
+
+
+
+
 
 
 /* sezioni img e descrizione */
